@@ -1,0 +1,21 @@
+{
+  "name": "autofire",
+  "version": "1.0.0",
+  "description": "Read one car dealership's inventory, lead workflow, test drives, follow-up priorities, and daily insights through AutoFire's hosted MCP server at mcp.goautofire.com. Sign in with an AutoFire account on first connect.",
+  "author": {
+    "name": "Intuico Digital, LLC",
+    "email": "aj@intuicodigital.com"
+  },
+  "repository": "https://github.com/ajhous44/intuico-mcp-plugins",
+  "homepage": "https://docs.goautofire.com/mcp/grok",
+  "license": "MIT",
+  "keywords": [
+    "autofire",
+    "goautofire",
+    "autofire mcp",
+    "autofire dealership",
+    "autofire inventory"
+  ],
+  "logo": "assets/logo.png",
+  "mcpServers": "mcp.json"
+}

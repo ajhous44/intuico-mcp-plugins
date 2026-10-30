@@ -1,0 +1,33 @@
+{
+  "name": "intuico-mcp-plugins",
+  "owner": {
+    "name": "Intuico Digital, LLC",
+    "email": "aj@intuicodigital.com"
+  },
+  "metadata": {
+    "description": "First-party hosted MCP connectors for AutoFire, UniPost and Calorie Cub."
+  },
+  "plugins": [
+    {
+      "name": "autofire",
+      "source": "plugins/autofire",
+      "description": "Read one car dealership's inventory, lead workflow, test drives, follow-up priorities, and daily insights through AutoFire's hosted MCP server at mcp.goautofire.com. Sign in with an AutoFire account on first connect.",
+      "homepage": "https://docs.goautofire.com/mcp/grok",
+      "license": "MIT"
+    },
+    {
+      "name": "unipost",
+      "source": "plugins/unipost",
+      "description": "Schedule posts to LinkedIn profiles, X, TikTok, and YouTube, and see how published posts performed, through UniPost's hosted MCP at mcp.unipost.ai. Sign in with a UniPost account on first connect.",
+      "homepage": "https://unipost.ai",
+      "license": "Proprietary"
+    },
+    {
+      "name": "calorie-cub",
+      "source": "plugins/calorie-cub",
+      "description": "Log meals, check calories and macros, save private recipes, and track weight in your Calorie Cub diary through its hosted MCP server. OAuth sign-in required.",
+      "homepage": "https://caloriecub.com/auth.md",
+      "license": "Proprietary"
+    }
+  ]
+}
